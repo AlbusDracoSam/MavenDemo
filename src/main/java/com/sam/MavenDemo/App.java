@@ -14,7 +14,7 @@ public class App
     	
     	ApplicationContext con = new ClassPathXmlApplicationContext("Spring.xml");
     	
-    	Vehicle obj = (Vehicle) con.getBean("vehicle");
+    	Vehicle obj = (Vehicle) con.getBean("bike");
     	
     	obj.drive();
     	
